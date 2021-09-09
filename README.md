@@ -57,6 +57,7 @@ GetCCSpass.pl movie.ccs.bam > movie.ccs.pass.txt
 ### Process of PAIso-seq data
 **Library structure of PAIso-seq:**</br>
 <div align=middle><img src="images/PAIso-seq_library_structure.png" width="80%"></div>
+
 **5'-adapter** (30 nt): 5'-AAGCAGTGGTATCAACGCAGAGTACATGGG-3'.</br>
 **3'-adapter** (25 nt): 5'-GTACTCTGCGTTGATACCACTGCTT-3'.</br>
 **Barcode**: the barcode of different samples (16 nt).
@@ -83,6 +84,7 @@ bash ./PAIso-seq/extract_and_filter_for_nonUMI_samples.sh sample_name
 ### Process of PAIso-seq2 data
 **Library structure of PAIso-seq2:**</br>
 <div align=middle><img src="images/PAIso-seq2_library_structure.png" width="95%"></div>
+
 **5'-adapter** (30 nt): 5'-AAGCAGTGGTATCAACGCAGAGTACATGGG-3'.</br>
 **3'-adapter** (25 nt): 5'-GTACTCTGCGTTGATACCACTGCTT-3'.</br>
 **UMI**: Unique Molecular Identifier, 10nt.</br>
@@ -110,6 +112,7 @@ bash ./PAIso-seq2/extract_and_filter_for_UMI_samples.sh sample_name
 ### Process of PAIso-seq_ligation data
 **Library structure of PAIso-seq_ligation**:</br>
 <div align=middle><img src="images/PAIso-seq_ligation_library_structure.png" width="70%"></div>
+
 **5'-adapter** (25 nt): 5'-AAGCAGTGGTATCAACGCAGAGTAC-3'.</br>
 **3'-adapter** (25 nt): 5'-GTACTCTGCGTTGATACCACTGCTT-3'.
 #### Step1. Demultiplex and remove adapters 
