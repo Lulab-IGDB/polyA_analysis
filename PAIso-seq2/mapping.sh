@@ -4,7 +4,7 @@ wget -c ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_36/genco
 wget -c ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_36/GRCh38.primary_assembly.genome.fa.gz  -P ./annotation/human/
 
 paftools.js gff2bed ./annotation/human/gencode.vM25.primary_assembly.annotation.gtf > ./annotation/human/gencode.vM25.primary_assembly.annotation.bed
-minimap2 -x splice -t 20 -d ./annotation/human/mouse_genome.mmi ./annotation/human/GRCh38.primary_assembly.genome.fa.gz
+minimap2 -x splice -t 20 -d ./annotation/human/human.mmi ./annotation/human/GRCh38.primary_assembly.genome.fa.gz
 
 minimap2 -ax splice -uf --secondary=no -t 40 -L --MD --cs --junc-bed ./annotation/human/gencode.vM25.primary_assembly.annotation.bed ./annotations/human/human.mmi $1.clean.fastq.gz 2>align.log | samtools view -bS >$1.clean.aligned.bam
 
