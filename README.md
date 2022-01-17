@@ -143,4 +143,12 @@ bash ./PAIso-seq_ligation/extract_and_filter_for_nonUMI_samples.sh sample_name
 ### 
 </br>
 
-
+### PAS calling and assignment of reads to PASs
+#### Step1. PAS calling using GV stage dataset 
+```
+bash ./PAS_analysis/APA_site_calling.sh GV 1
+```
+#### Step2. Assigning reads for a given sample to reference PASs called in GV stage dataset
+```
+bash ./PAS_analysis/reads_classification_APAsites.sh sample_name 1 GV.v7.1.APAsites.csv
+```
