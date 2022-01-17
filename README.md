@@ -85,7 +85,7 @@ bash ./PAIso-seq/extract_and_filter_for_nonUMI_samples.sh sample_name
 **Library structure of PAIso-seq2:**</br>
 <div align=middle><img src="images/PAIso-seq2_library_structure.png" width="95%"></div>
 
-**5'-adapter** (30 nt): 5'-AAGCAGTGGTATCAACGCAGAGTACATGGG-3'.</br>
+**5'-adapter** (40 nt): 5'-AAGCAGTGGTATCAACGCAGAGTACNNNNNNNNNNATGGG-3'.</br>
 **3'-adapter** (25 nt): 5'-GTACTCTGCGTTGATACCACTGCTT-3'.</br>
 **UMI**: Unique Molecular Identifier, 10nt.</br>
 **Barcode**: the barcode of different samples (16 nt).</br>
