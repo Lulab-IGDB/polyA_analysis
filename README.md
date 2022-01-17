@@ -134,3 +134,11 @@ bash ./PAIso-seq_ligation/trim_note_for_nonUMI_samples.sh sample_name
 bash ./PAIso-seq_ligation/extract_and_filter_for_nonUMI_samples.sh sample_name
 ```
 ### 
+</br>
+
+### Process of FLAM-seq data
+```
+# use CCS_split_clean_UMI_FLAM-seq_V2.py instead of 
+```
+### 
+</br>
