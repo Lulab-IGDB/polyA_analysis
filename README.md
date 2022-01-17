@@ -100,6 +100,7 @@ bash ./PAIso-seq2/mapping.sh sample_name
 #### Step3. Poly(A) calling
 ```
 bash ./PAIso-seq2/trim_note_for_UMI_samples.sh sample_name
+# (optional) bash ./PAIso-seq2/trim_note_for_UMI_samples_human_last_exon.sh sample_name
 ```
 ### 
 #### Step4. Class ccs reads by gene biotype
