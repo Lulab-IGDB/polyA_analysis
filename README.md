@@ -138,7 +138,9 @@ bash ./PAIso-seq_ligation/extract_and_filter_for_nonUMI_samples.sh sample_name
 
 ### Process of FLAM-seq data
 ```
-# use CCS_split_clean_UMI_FLAM-seq_V2.py instead of 
+# use CCS_split_clean_UMI_FLAM-seq_V2.py instead of CCS_split_clean_UMI_V4.py in the split.sh. The other steps follows the PAIso-seq2 procedures.
 ```
 ### 
 </br>
+
+
